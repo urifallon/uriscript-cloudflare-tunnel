@@ -1,0 +1,7 @@
+tunnel: 6ae8a17d-9e51-4c2a-8850-22f30be2502f
+credentials-file: /etc/cloudflared/6ae8a17d-9e51-4c2a-8850-22f30be2502f.json
+
+ingress:
+  - hostname: fatbeo.com
+    service: http://127.0.0.1:80
+  - service: http_status:404
